@@ -1,0 +1,71 @@
+* {                 /*esta etiqueta  (*) es un selector universal en css para todos los elementos de la pajina aplica a todo sirve para quitar margenes y paddings por defectos que traen los navegadores*/
+  margin: 0;
+   padding: 0;
+}
+
+body {
+	background: #e6e6e6;    /*esta etiqueta sirve para darle color a toda la pajina en general*/	
+}
+
+header, .main, footer {           /*la primer etiqueta header y main, y footer es la etiqueta donde esta todo el contenido en html y en css es para darle un tamano o centrar o darle color es como un cajon donde esta la imformacion de la pajina */
+	background:#fff;                /*el background aqui sirve para darle color al cajon de donde se encuentra la etiqueta header y main y footer*/
+	width: 90%;                     /*estan etiqueta whith sirve para centrar el cajon junto con la etiqueta max-width para centrar las los header el main y footer de hatml  */
+	max-width: 1000px;
+	margin:20px auto;          /*esta etiqueta sirve para darle un ancho entre el contenido de la pajina y de la barra que esta arriba del motor de busqueda*/
+}
+
+header nav {            /*esta etiqueta header nav es para darle color al contenido que esta adentro de de haeader y nav en html para modificar los link o en su nombre lisatas desordenadas*/
+	   background: #528FD5;  
+	   overflow:hidden;    /*esta etiqueta sirve para ocultar todo lo que salga del contenedor se usa para cortar o lo que sobra en el contenedor*/  
+
+}
+
+header nav ul {
+	list-style: none;      /*esta etiqueta sirve para quitarle los discos de estilos que tienen los link/*/
+
+}
+
+header nav ul li {      /*estas etiqueta header nav ul li es para darle estilos colocarlos o darle colores a los link de la pajina html*/
+           float: left;
+
+}
+
+header nav ul li a {    /*estas etiqueta sirven para darle estilo a los elementos a del li osea los link*/
+                padding: 10px 20px;         /*aqui esta etiqueta sirve para darle un espacio entre links en la pajina principal*/
+                display: block;             /*la etiqueta display block sirve para para que la etqueta padding pueda funcionar para darle espacio hacia arriba y hacia abajo*/
+                color: #fff;               /*esta etiqueta sirve para darle color al cajon de los link*/
+                text-decoration: none;     /*esta etiqueta sirve para quitarle el rayado o linea que traen los link por defecto*/
+
+}    
+
+header nav ul li a:hover {  /*esta etiqueta header nav ul li a:hover sirve para darle estilos a los link  etc y colores etc al momento de pasar el mouse*/
+	   background: yellow;
+}        
+
+.main .articles {           /*este selector .main.article en css apunta al contenido que esta en html y css le dice que hacer para que en la pajina principal se vea las modificaciones*/
+   width: 70%;           
+   float: left;             /*este selector de float left apunta a que ba a mover el contenido que se encuentra en articles y main y los movera a la derecha junto con el porcentaje que se le da em whith*/
+    
+   
+}  
+ 
+aside {                     /*en este selector de aside se ba a modificar el contenido que se encuentra adentro de aside pero de html para darle color o moverlo darle tamano etc*/
+      width: 30%;
+      background: #ff8000;   /*este selector sirve para darle color a el contenido de aside */
+      float: left;          /*este selector sirve para moverlo a la derecha el contendio de aside */
+
+}
+.main .articles {           /*este selector .main.article en css apunta al contenido que esta en html y css le dice que hacer para que en la pajina principal se vea las modificaciones*/
+   width: 70%;           
+   float: left;             /*este selector de float left apunta a que ba a mover el contenido que se encuentra en articles y main y los movera a la derecha junto con el porcentaje que se le da em whith*/
+    
+   
+}  
+ 
+aside {                     /*en este selector de aside se ba a modificar el contenido que se encuentra adentro de aside pero de html para darle color o moverlo darle tamano etc*/
+      width: 30%;
+      background: #ff8000;   /*este selector sirve para darle color a el contenido de aside */
+      float: left;          /*este selector sirve para moverlo a la derecha el contendio de aside */
+
+}
+
