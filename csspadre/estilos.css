@@ -1,0 +1,190 @@
+* {
+  /*esta etiqueta  (*) es un selector universal en css para todos los elementos de la pajina aplica a todo sirve para quitar margenes y paddings por defectos que traen los navegadores*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://static4.depositphotos.com/1010047/277/i/450/depositphotos_2776295-stock-photo-father-and-son.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+div.papa,
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 5px 5px #ac732a;
+  background-color: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGM0KezbAocO_IzxpjqExSLzZKfTdZxRN8487G-ERR1Q&s=10)
+}
+
+
+
+
+div,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0N47-ww_aYTCZZjj1nXjZwUG6LqiS7ts-jDFCZju1aweZQmL9jzB60_g&s=10");
+}
+
+div.foto,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEFYSRVN7gM8e1TbQgzPykr0_IhBlpWzahLAqkeAzzmA&s=10");
+}
+
+div.hijo,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  transition: transform 0.2s ease;
+  /*esta etiqueta de transition:transform o.1 ease  sirve para darle efecto a las imajenes para asercarlas o minimisarlas  */
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.hijo:hover {
+  transform: scale(0.7);
+  /*esta etiqueta transform sirve en conjunto con la etiqueta de transition:transform o.1 ease  sirve para darle efecto a las imajenes para asercarlas o minimisarlas o moverlas a la derecha odar vueltas etc etc. */
+
+
+}
+
+div.lucian,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.alejandro,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawmJTe1aPo4Mkfrkxiphsiu0FIM5-N68ynHhhyt4xYuToNfneQOatp9rn&s=10)
+}
+
+div.yorleni,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQMk8Stc-gMQbNcvANFNzsNmgC231zpUNvQXSFfFNOQ&s=10")
+}
+
+div.selena,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkdCYO46npKIF3hZ71w4IFBGASM3TNZ8qwxpksEz7dzA&s=10)
+}
+
+div.perez,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #ac732a;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvPzKuAnc19ewrODfJKKRhiG4MmMafA-0HDk0Pv_XSiA&s=10)
+}
+
+nav.link,
+li,
+a {
+  background-color: blanchedalmond;
+  padding: 5px 59.7px;
+  display: inline-block;
+  animation: rebotar 1s ease infinite, burbuja 1.5s ease infinite;
+  /*esta etiqueta display: inline-block; ba obligatorio ya que se familiarisia con transition: transform 0.3 ease;sirve para darle efecto a los link agrandandolos o les hace zoom siempra familiarisandose con la etiqueta a:hover  transform: scale(1.2); para darle efecto*/
+  transition: transform 0.3s ease;
+  /*esta etiqueta transition: transform 0.3 ease;sirve para darle efecto a los link agrandandolos o les hace zoom siempra familiarisandose con la etiqueta  display inlike-block y a:hover  transform: scale(1.2); para darle efecto*/
+
+  text-decoration: underline;
+  margin: 5px 0px 0px 0px;
+
+}
+
+@keyframes rebotar {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes burbuja {
+  0% {
+    box-shadow: 0 0 0 0 rgba(18, 203, 224, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 15px rgba(155, 18, 224, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(155, 18, 224, 0);
+  }
+}
+
+
+nav.link,
+li,
+a:hover {
+  transform: translateY(-10px);
+  /*esta etiqueta transform: translateY(-5px);sirve para darle efecto a los link agrandandolos o les hace zoom siempra familiarisandose con la etiqueta  display inlike-block y a:hover  transform: scale(1.2); para darle efecto*/
+  font-family: monospace;
+  background-color: #ac732a;
+
+}
+
+a:active {
+  background-color: rgb(187, 25, 109);
+}
+
+@media(max-width:768px) {
+
+  /*@media(max-with:768px){menu}display:none; sirve pra que la pajin web funcione bien en las pantallas de los telefonos y no salga mas pequeno el contenido*/
+  menu {
+    display: none;
+  }
+}
