@@ -1,73 +1,339 @@
-* {                 /*esta etiqueta  (*) es un selector universal en css para todos los elementos de la pajina aplica a todo sirve para quitar margenes y paddings por defectos que traen los navegadores*/
+* {
+  /*esta etiqueta  (*) es un selector universal en css para todos los elementos de la pajina aplica a todo sirve para quitar margenes y paddings por defectos que traen los navegadores*/
   margin: 0;
-   padding: 0;
+  padding: 0;
 }
 
 body {
-	background: #e6e6e6;    /*esta etiqueta sirve para darle color a toda la pajina en general*/	
-}
-
-header, .main, footer {           /*la primer etiqueta header y main, y footer es la etiqueta donde esta todo el contenido en html y en css es para darle un tamano o centrar o darle color es como un cajon donde esta la imformacion de la pajina */
-	background:#fff;                /*el background aqui sirve para darle color al cajon de donde se encuentra la etiqueta header y main y footer*/
-	width: 90%;                     /*estan etiqueta whith sirve para centrar el cajon junto con la etiqueta max-width para centrar las los header el main y footer de hatml  */
-	max-width: 1000px;
-	margin:20px auto;          /*esta etiqueta sirve para darle un ancho entre el contenido de la pajina y de la barra que esta arriba del motor de busqueda*/
-}
-
-header nav {            /*esta etiqueta header nav es para darle color al contenido que esta adentro de de haeader y nav en html para modificar los link o en su nombre lisatas desordenadas*/
-	   background: #528FD5;  
-	   overflow:hidden;    /*esta etiqueta sirve para ocultar todo lo que salga del contenedor se usa para cortar o lo que sobra en el contenedor*/  
+  background: url(https://st2.depositphotos.com/5130171/10324/v/950/depositphotos_103243536-stock-illustration-seamless-baby-background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
-header nav ul {
-	list-style: none;      /*esta etiqueta sirve para quitarle los discos de estilos que tienen los link/*/
+h1 {
+  color: #710350;
+  animation: entrardelaizquierda 0.2s ease;
+  font-family: comic sans MS;
+  font-size: 50px;
+  text-align: center;
+  background: #9B12E0;
+  text-shadow: 4px 5px 5px #dd8818;
+
 
 }
 
-header nav ul li {      /*estas etiqueta header nav ul li es para darle estilos colocarlos o darle colores a los link de la pajina html*/
-           float: left;
+@keyframes entrardelaizquierda {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZd8nLuBLPw3xbx4QxbiwaQ_sE1B_1fUOiSjFLmTCLpw&s=10");
+}
+
+
+div,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.foto,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.hijo,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.lucian,
+img {
+  width: 300;
+  animation: aparecer 1s ease;
+  /*esta etiqueta animation: aparecer 1s ease; sirve para imajenes textos lin etc para hacer efecto pero tiene que ir familiarisado de 
+@keyframes aparecer {
+  from {
+    transform: scale(2);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+} seto para que los textos y las imajenes tengan funciones mas avanzadas*/
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+@keyframes aparecer {
+  from {
+    transform: scale(2);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+div.alejandro,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.yorleni,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.selena,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.perez,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.malick,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.yefri,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.pelota,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.billar,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.beisbol,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.telefono,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.computadora,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.celular,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.tablet,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.mono,
+img {
+  width: 300;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+div.mono,
+img {
+  width: 300;
+  animation: entrada 0.8s ease;
+  margin: 50px auto;
+  height: 300;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #10cdf7;
+  background: url(https://img.magnific.com/vector-gratis/diseno-patron-arco-iris-dibujado-mano_23-2149005796.jpg?semt=ais_hybrid&w=740&q=80)
+}
+
+@keyframes entrada {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+
+    to {
+      transform: scale(1);
+    }
+
+    opacity: 1;
+  }
+}
+
+nav.link,
+li,
+a {
+  background-color: blanchedalmond;
+  padding: 5px 59.7px;
+  display: inline-block;
+  animation: rebotar 1s ease infinite;
+  /*esta etiqueta display: inline-block; ba obligatorio ya que se familiarisia con transition: transform 0.3 ease;sirve para darle efecto a los link agrandandolos o les hace zoom siempra familiarisandose con la etiqueta a:hover  transform: scale(1.2); para darle efecto*/
+  transition: transform 0.3 ease;
+  /*esta etiqueta transition: transform 0.3 ease;sirve para darle efecto a los link agrandandolos o les hace zoom siempra familiarisandose con la etiqueta a:hover  transform: scale(1.2); para darle efecto*/
+  float: left;
+  text-decoration: none;
+  text-decoration: underline;
+  margin: 5px 0px 0px 0px;
 
 }
 
-header nav ul li a {    /*estas etiqueta sirven para darle estilo a los elementos a del li osea los link*/
-                padding: 10px 20px;         /*aqui esta etiqueta sirve para darle un espacio entre links en la pajina principal*/
-                display: block;             /*la etiqueta display block sirve para para que la etqueta padding pueda funcionar para darle espacio hacia arriba y hacia abajo*/
-                color: #fff;               /*esta etiqueta sirve para darle color al cajon de los link*/
-                text-decoration: none;     /*esta etiqueta sirve para quitarle el rayado o linea que traen los link por defecto*/
+@keyframes rebotar {
+  0% {
+    transform: translateY(0);
+  }
 
-}    
+  50% {
+    transform: translateY(-10px);
+  }
 
-header nav ul li a:hover {  /*esta etiqueta header nav ul li a:hover sirve para darle estilos a los link  etc y colores etc al momento de pasar el mouse*/
-	   background: yellow;
-}        
-
-.main .articles {           /*este selector .main.article en css apunta al contenido que esta en html y css le dice que hacer para que en la pajina principal se vea las modificaciones*/
-   width: 70%;           
-   float: left;             /*este selector de float left apunta a que ba a mover el contenido que se encuentra en articles y main y los movera a la derecha junto con el porcentaje que se le da em whith*/
-    
-   
-}  
- 
-aside {                     /*en este selector de aside se ba a modificar el contenido que se encuentra adentro de aside pero de html para darle color o moverlo darle tamano etc*/
-      width: 30%;
-      background: #ff8000;   /*este selector sirve para darle color a el contenido de aside */
-      float: left;          /*este selector sirve para moverlo a la derecha el contendio de aside */
-
+  100% {
+    transform: translateY(0);
+  }
 }
-.main .articles {           /*este selector .main.article en css apunta al contenido que esta en html y css le dice que hacer para que en la pajina principal se vea las modificaciones*/
-   width: 70%;           
-   float: left;             /*este selector de float left apunta a que ba a mover el contenido que se encuentra en articles y main y los movera a la derecha junto con el porcentaje que se le da em whith*/
-    
-   
-}  
- 
-aside {                     /*en este selector de aside se ba a modificar el contenido que se encuentra adentro de aside pero de html para darle color o moverlo darle tamano etc*/
-      width: 30%;
-      background: #ff8000;   /*este selector sirve para darle color a el contenido de aside */
-      float: left;          /*este selector sirve para moverlo a la derecha el contendio de aside */
 
+nav.link,
+li,
+a:hover {
+  transform: scale(1.2);
+  /*;transform: scale(1.1);   /* esta etiqueta ;transform: scale(1.1);  rotate: (2deg) sirve para que el linkgire un*/
+  /* rotate: (2deg)*/
+  font-family: cursive;
+  background-color: rgb(35, 205, 243);
 }
+
+a:active {
+  background-color: rgb(187, 25, 109);
+}
+
 @media(max-width:768px) {
 
   /*@media(max-with:768px){menu}display:none; sirve pra que la pajin web funcione bien en las pantallas de los telefonos y no salga mas pequeno el contenido*/
@@ -75,4 +341,3 @@ aside {                     /*en este selector de aside se ba a modificar el con
     display: none;
   }
 }
-
