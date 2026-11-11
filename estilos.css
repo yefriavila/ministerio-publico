@@ -68,4 +68,11 @@ aside {                     /*en este selector de aside se ba a modificar el con
       float: left;          /*este selector sirve para moverlo a la derecha el contendio de aside */
 
 }
+@media(max-width:768px) {
+
+  /*@media(max-with:768px){menu}display:none; sirve pra que la pajin web funcione bien en las pantallas de los telefonos y no salga mas pequeno el contenido*/
+  menu {
+    display: none;
+  }
+}
 
